@@ -1,0 +1,35 @@
+/* Keep the compact marketplace layout comfortable to read and tap. */
+.nav-label{font-size:9px;letter-spacing:.7px}
+.delivery-address small,.welcome-line p,.local-badge,.section-heading p,.card-chef,.card-description,.photo-time,.food-tag,.rating,.chef-card p,.chef-card .rating,.page-footer,.page-footer button,.sidebar-footer{font-size:12px}
+.search-field input,.delivery-address strong,.cuisine-button span:last-child,.section-link,.chip,.sort-wrap,.sort-wrap select,.card-title,.chef-card h3,.help-button,.text-button,.form-field>span,.cart-item-info h3,.cart-item-info strong,.totals-line,.payment-option,.order-status,.order-top p,.order-bottom,.order-step{font-size:14px}
+.hero-description,.modal-body p,.dish-modal-body>p,.large-chef-body p{font-size:16px}
+.hero-description{max-width:350px}
+.hero-social,.chef-invite p,.card-price small,.promo-code-button,.promo-code-button span,.bottom-promo p,.demo-note,.cart-subtitle,.cart-item-info p,.drawer-footer>small,.checkout-payment-note,.payment-option small,.order-items{font-size:12px}
+.card-price,.total-line{font-size:16px}
+.card-title-row{align-items:flex-start}
+.card-chef{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.card-chef img{width:19px;height:19px}
+.card-title{line-height:1.45}
+.food-tag{font-size:11px}
+.photo-time{font-size:11px}
+.rating svg{width:12px;height:12px}
+.food-tag svg{width:12px;height:12px}
+.add-button{width:34px;height:34px}
+.favorite-button{width:30px;height:30px}
+.chef-card{align-items:flex-start}
+.chef-card .rating span{font-size:10px}
+.chef-card p{line-height:1.7}
+.sidebar-footer{font-size:10px}
+.bottom-promo h3{font-size:16px}
+.page-footer{font-size:11px}
+.page-footer button{font-size:11px}
+.nav-link{font-size:14px}
+.floating-review strong{font-size:12px}.floating-review small,.floating-review .stars{font-size:10px}.hero-tag{font-size:11px}
+.load-more-wrap button,.primary-button,.secondary-button{font-size:14px}
+.hero-social{max-width:350px}
+.hero-social>span{line-height:1.5}
+.hero{min-height:355px}
+@media(min-width:1450px){.hero{min-height:380px}}
+@media(max-width:1200px){.hero-description{font-size:14px;max-width:270px}.hero-social{font-size:10px}.chip{font-size:12px}.sort-wrap,.sort-wrap select{font-size:12px}.card-title-row{display:block}.card-title-row>.rating{margin-top:5px}.food-tag{font-size:10px}.card-chef,.card-description{font-size:11px}.chef-card h3{font-size:13px}.chef-card p{font-size:11px}.delivery-address strong{font-size:12px}.cuisine-button span:last-child{font-size:12px}.hero-tag{font-size:10px}}
+@media(max-width:800px){.hero-description{font-size:14px;max-width:230px}.section-heading p{font-size:12px}.section-link{font-size:12px}.card-title{font-size:13px}.chef-card h3{font-size:13px}.chef-card p{font-size:11px}.hero-social{font-size:10px}.hero-tag{font-size:9px}.floating-review strong{font-size:10px}.floating-review small{font-size:9px}}
+@media(max-width:620px){.nav-link{font-size:10px}.hero{min-height:345px}.hero-description{font-size:12px;max-width:195px;line-height:1.8}.hero-social{font-size:9px;max-width:200px}.hero .primary-button{font-size:12px}.welcome-line p{font-size:11px}.search-field input{font-size:12px}.delivery-address small{font-size:11px}.delivery-address strong{font-size:12px}.section-heading h2{font-size:18px}.section-heading p{font-size:11px}.section-link{font-size:11px}.cuisine-button{min-width:92px}.cuisine-button span:last-child{font-size:11px}.chip{font-size:11px;padding:8px 11px}.sort-wrap,.sort-wrap select{font-size:11px}.card-title{font-size:14px}.card-title-row>.rating{position:static;display:flex;align-items:center;gap:4px;font-size:11px;margin-top:5px;padding:0}.card-chef{max-width:100%;font-size:10px}.card-description{font-size:11px}.card-price{font-size:15px}.card-bottom{margin-top:13px}.food-tag{font-size:9px;max-width:calc(100% - 47px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.photo-time{font-size:10px}.chef-card{flex-direction:column;gap:9px;padding:15px}.chef-card h3{font-size:13px}.chef-card p{font-size:11px}.chef-card .rating{font-size:11px}.chef-avatar-wrap img{width:38px;height:38px}.floating-review strong{font-size:9px}.floating-review small,.floating-review .stars{font-size:8px}.hero-tag{font-size:8px}.bottom-promo h3{font-size:14px}.bottom-promo p{font-size:11px}.promo-code-button,.promo-code-button span{font-size:11px}.page-footer{font-size:10px}.order-top p,.order-status,.order-step,.order-bottom{font-size:12px}.cart-subtitle{font-size:12px}.form-row{gap:10px}.payment-option{font-size:13px}.payment-option small{font-size:10px}.modal-body p{font-size:15px}.cart-item-info h3,.totals-line{font-size:13px}.total-line{font-size:16px}.card-price small{display:none}.section-heading{gap:10px}}

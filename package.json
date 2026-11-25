@@ -1,0 +1,7 @@
+{
+  "name": "homebite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HomeBite homemade food delivery project demo",
+  "scripts": { "dev": "node server.mjs", "start": "node server.mjs", "check": "node --check dist/app.js && node --check dist/data.js && node --test tests/cart.test.mjs" }
+}

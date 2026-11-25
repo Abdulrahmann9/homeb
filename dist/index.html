@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f16b3c">
+  <meta name="description" content="Discover delicious homemade meals from talented home chefs. Explore cuisines, find your favorites, and try the HomeBite delivery demo.">
+  <title>HomeBite — A little taste of home</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="readability.css">
+  <script defer src="data.js"></script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <aside class="sidebar" aria-label="Main navigation">
+    <a class="brand" href="#discover" aria-label="HomeBite home"><span class="brand-mark"><svg viewBox="0 0 32 32" fill="none"><path d="m5 14 11-9 11 9v12H5V14Z" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/><path d="M11 16v6m3-6v6m-3-3h3m6-3v10m0-10c5 1 4 6 0 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>Home<span>Bite</span><span class="brand-period">.</span></a>
+    <div class="nav-label">YOUR DAILY DOSE OF HOMEMADE</div>
+    <nav id="navigation"></nav>
+    <div class="sidebar-bottom">
+      <div class="chef-invite"><div class="invite-icon" data-icon="chef"></div><h3>Your kitchen.<br>Someone’s happy place.</h3><p>Share what you love to cook.</p><button class="text-button" data-action="become-chef">Become a home chef <span>+</span></button></div>
+      <button class="help-button" data-action="help"><span data-icon="help"></span> Help & support</button>
+      <div class="sidebar-footer">Made with love. Delivered with care.<span>© 2026 HomeBite</span></div>
+    </div>
+  </aside>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="delivery-address" data-action="address"><span class="location-icon" data-icon="pin"></span><span><small>Deliver to</small><strong id="address-label">Downtown, New York</strong></span><span class="chevron" data-icon="chevron"></span></button>
+      <label class="search-field"><span data-icon="search"></span><input id="search" type="search" placeholder="Search a dish, cuisine, or home chef" aria-label="Search dishes, cuisines, or home chefs"><span class="search-key">⌕</span></label>
+      <button class="cart-button" data-action="cart"><span data-icon="bag"></span><span>Cart</span><span class="cart-count" id="cart-count">0</span></button>
+      <button class="profile-button" data-action="profile" aria-label="Open your profile">JD<span></span></button>
+    </header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="page-footer"><span class="footer-brand">HomeBite<span>.</span></span><span>Real people. Real kitchens. Really good food.</span><button data-action="about">About this project <span data-icon="external"></span></button></footer>
+  </div>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+  <dialog id="cart-dialog" class="cart-drawer" aria-labelledby="cart-title"></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
